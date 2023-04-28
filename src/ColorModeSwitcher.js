@@ -13,8 +13,10 @@ const ColorModeSwitcher = props => {
       fontSize="lg"
       aria-label={`Switch to ${text} mode`}
       */
+      zIndex={'overlay'}
       variant="ghost"
-      color="current"
+      // color="purple"
+      colorScheme='purple'
       pos={'fixed'}
       top={'4'}
       right={'4'}
